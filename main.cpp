@@ -84,7 +84,7 @@ int main() {
 
     while (true) {
         std::cout << "Ваш варіант > ";
-        if (!(std::cin >> attempt)) break; // Захист від неправильного вводу
+        if (!(std::cin >> attempt)) break; 
         
         steps++;
 
